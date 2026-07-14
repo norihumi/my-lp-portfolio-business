@@ -99,3 +99,60 @@ main{
     padding : 20px 40px;
     border-radius : 30px;
 }
+
+/* ================================
+    3つの特徴
+================================== */
+.features{
+    width : 100%;
+    background-color : #ffffff;
+    padding : 100px 0;
+}
+
+.features-container{
+    max-width : 1200px;
+    margin : 0 auto;
+    padding : 0 20px;
+}
+
+.features-title{
+    font-size : 50px;
+    padding-bottom : 50px;
+    text-align : center;
+}
+
+.features-wrapper{
+    display : flex;
+    justify-content : space-between;
+    gap : 30px;
+}
+
+.features-item{
+    position : relative;
+    background-color : #f9f9f9;
+    padding : 40px 30px;
+    flex : 1;
+    border-radius : 10px;
+}
+
+.features-num{
+    position : absolute;
+    top : -15px;
+    left : 20px;
+    background-color : #2c3e50;
+    color : #ffffff;
+    font-weight : bold;
+    border-radius : 5px;
+    padding : 5px 15px;
+}
+
+.features-sub{
+    font-size : 20px;
+    text-align : center;
+    padding-bottom : 15px;
+}
+
+.features-text{
+    color : #666666;
+    line-height : 1.6;
+}
