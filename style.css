@@ -368,5 +368,57 @@ main{
 }
 
 .copyright:last-child {
-    margin-bottom: 0; /* 一番最後のコピーライトの下マージンはリセット */
+    margin-bottom: 0;
+}
+
+/* ================================
+    レスポンシブ
+================================== */
+@media(max-width : 768px){
+
+    .header-container{
+        padding : 15px 20px;
+    }
+    
+    .header-nav{
+        display : none;
+    }
+
+    .mv-title{
+        font-size : 35px;
+    }
+
+    .features-title{
+        font-size : 35px;
+    }
+
+    .features-wrapper{
+        flex-direction : column;
+        gap : 50px;
+    }
+
+    .voice-title{
+        font-size : 35px;
+    }
+
+    .voice-item{
+        flex-direction : column;
+        gap : 30px;
+    }
+
+    .voice-item:nth-of-type(even){
+        flex-direction : inherit;
+    }
+
+    .plan-title{
+        font-size : 35px;
+    }
+
+    .plan-wrapper{
+        flex-direction : column;
+    }
+
+    .cv-word{
+        font-size : 15px;
+    }
 }
