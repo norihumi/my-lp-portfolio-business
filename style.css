@@ -235,3 +235,83 @@ main{
     color : #666666;
     line-height : 1.6;
 }
+
+/* ================================
+    料金プラン
+================================== */
+.plan{
+    width : 100%;
+    background-color : #ffffff;
+    padding : 100px 0;
+}
+
+.plan-container{
+    max-width : 1200px;
+    padding : 0 20px;
+    margin : 0 auto;
+}
+
+.plan-title{
+    font-size : 50px;
+    padding-bottom : 20px;
+    text-align : center;
+}
+
+.plan-wrapper{
+    display : flex;
+    justify-content : space-between;
+    gap : 30px;
+}
+
+.plan-item{
+    position : relative;
+    background-color : #f9f9f9;
+    padding : 30px 20px;
+    flex : 1;
+    border-radius : 10px;
+    transition : all 0.3s ease;
+}
+
+.plan-item:hover{
+    transform : scale(1.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.plan-recommend{
+    background : #0066cc;
+    color : #ffffff;
+}
+
+.plan-badge{
+    position : absolute;
+    display : inline-block;
+    top : -15px;
+    left : 50%;
+    transform : translateX(-50%);
+    background-color : #f39c12;
+    color : #ffffff;
+    padding : 5px 10px;
+    border-radius : 10px;
+    font-weight : bold;
+}
+
+.plan-sub{
+    text-align : center;
+    font-size : 20px;
+    padding : 5px 0;
+}
+
+.plan-price{
+    text-align : center;
+    padding : 10px;
+    font-size : 25px;
+}
+
+.plan-tax{
+    font-size : 15px;
+}
+
+.plan-content{
+    list-style : none;
+    line-height : 1.6;
+}
