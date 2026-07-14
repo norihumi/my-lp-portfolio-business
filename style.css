@@ -156,3 +156,82 @@ main{
     color : #666666;
     line-height : 1.6;
 }
+
+/* ================================
+    受講生の声
+================================== */
+.voice{
+    width : 100%;
+    background-color : #e6f2ff;
+    padding : 100px 0;
+}
+
+.voice-container{
+    max-width : 1200px;
+    padding : 0 20px;
+    margin : 0 auto;
+}
+
+.voice-title{
+    font-size : 50px;
+    text-align : center;
+    padding-bottom : 50px;
+}
+
+.voice-wrapper{
+    display : flex;
+    flex-direction : column;
+    gap : 50px;
+}
+
+.voice-item{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    gap : 50px;
+    background-color : #ffffff;
+    border-radius : 10px;
+    padding : 40px;
+}
+
+.voice-item:nth-of-type(even){
+    flex-direction : row-reverse;
+}
+
+.voice-profile{
+    width : 250px;
+    text-align : center;
+    flex-shrink : 0;
+}
+
+.voice-img {
+    width: 120px;
+    height: 120px;
+    background-color: #dddddd;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #666666;
+    font-size: 14px;
+    margin : 0 auto 15px;
+}
+
+.voice-name{
+    font-size : 18px;
+    font-weight : bold;
+    padding-bottom : 5px;
+}
+
+.voice-status{
+    font-size : 14px;
+    color : #0066cc;
+    font-weight : bold;
+    padding-bottom : 5px;
+}
+
+.voice-text{
+    color : #666666;
+    line-height : 1.6;
+}
